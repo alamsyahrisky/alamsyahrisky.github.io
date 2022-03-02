@@ -1,0 +1,16 @@
+.img-profile{
+    background-image: url(../img/profile-4.JPG);
+    width: 25%;
+    min-height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 100%;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+h1.home-name {
+    margin-top: 34px;
+}
