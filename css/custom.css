@@ -1,0 +1,49 @@
+.resumo_fn_contact .contact_form button {
+    display: block;
+    line-height: 26px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 20px 20px;
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-color: rgba(0, 0, 0, .2);
+    color: #333;
+    width: 100%;
+    background: transparent;
+}
+
+body.light .resumo_fn_contact .contact_form button:hover {
+    border-color: var(--mc);
+    color: var(--mc);
+}
+
+.swiper {
+    width: 100%;
+    max-height: 500px;
+}
+
+.social-header{
+    margin-top: 3rem;
+    display: table-column;
+}
+
+.social-header a{
+    display: inline!important;
+    background-color: rgba(0, 0, 0, .05);
+    text-align: center;
+    padding-left: 10px !important;
+    padding-right: 10px ;
+    padding-top: 7px ;
+    padding-bottom: 7px ;
+    margin: 0 3px;
+}
+
+.social-header a::before {
+    height: 0px!important;
+}
