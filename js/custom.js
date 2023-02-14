@@ -2,6 +2,13 @@ $(".modal_item").on('click', function(event){
     refreshSlide(1000);
 });
 
+lightbox.option({
+    'alwaysShowNavOnTouchDevices':true,
+    'resizeDuration': 200,
+    'wrapAround': true,
+    'showImageNumberLabel':false
+})
+
 
 function refreshSlide (timeout){
     setTimeout(() => {

@@ -1720,16 +1720,15 @@ a:focus {
     -o-flex-direction: row;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: -60px;
-    list-style-type: none
+    margin-left: 30px;
 }
 
 .resumo_fn_blog_list li {
     margin: 0;
     padding: 0;
     width: 50%;
-    padding-left: 60px;
-    margin-bottom: 44px
+    /* padding-left: 60px; */
+    margin-bottom: 15px
 }
 
 .resumo_fn_blog_list .img_holder {
@@ -2416,10 +2415,10 @@ a:focus {
         width: 50%
     }
     .resumo_fn_blog_list li {
-        padding-left: 30px
+        /* padding-left: 30px */
     }
     .resumo_fn_blog_list ul {
-        margin-left: -30px
+        margin-left: 25px
     }
 }
 
